@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD15D5FD198B88ED007A0979 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD15D5FC198B88ED007A0979 /* Foundation.framework */; };
+		BD15D5FF198B88ED007A0979 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD15D5FE198B88ED007A0979 /* CoreGraphics.framework */; };
+		BD15D601198B88ED007A0979 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD15D600198B88ED007A0979 /* UIKit.framework */; };
+		BD15D607198B88ED007A0979 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD15D605198B88ED007A0979 /* InfoPlist.strings */; };
+		BD15D609198B88ED007A0979 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD15D608198B88ED007A0979 /* main.m */; };
+		BD15D60D198B88ED007A0979 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD15D60C198B88ED007A0979 /* AppDelegate.m */; };
+		BD15D60F198B88ED007A0979 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD15D60E198B88ED007A0979 /* Images.xcassets */; };
+		BD15D616198B88EE007A0979 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD15D615198B88EE007A0979 /* XCTest.framework */; };
+		BD15D617198B88EE007A0979 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD15D5FC198B88ED007A0979 /* Foundation.framework */; };
+		BD15D618198B88EE007A0979 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD15D600198B88ED007A0979 /* UIKit.framework */; };
+		BD15D620198B88EE007A0979 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD15D61E198B88EE007A0979 /* InfoPlist.strings */; };
+		BD15D622198B88EE007A0979 /* VoiceViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD15D621198B88EE007A0979 /* VoiceViewTests.m */; };
+		BD15D63F198B8929007A0979 /* InputView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD15D62C198B8929007A0979 /* InputView.m */; };
+		BD15D640198B8929007A0979 /* circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD15D62E198B8929007A0979 /* circle@2x.png */; };
+		BD15D641198B8929007A0979 /* keyBoard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD15D62F198B8929007A0979 /* keyBoard@2x.png */; };
+		BD15D642198B8929007A0979 /* keyBoard_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD15D630198B8929007A0979 /* keyBoard_h@2x.png */; };
+		BD15D643198B8929007A0979 /* mic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD15D631198B8929007A0979 /* mic@2x.png */; };
+		BD15D644198B8929007A0979 /* send@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD15D632198B8929007A0979 /* send@2x.png */; };
+		BD15D645198B8929007A0979 /* send_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD15D633198B8929007A0979 /* send_h@2x.png */; };
+		BD15D646198B8929007A0979 /* textBac@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD15D634198B8929007A0979 /* textBac@2x.png */; };
+		BD15D647198B8929007A0979 /* voice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD15D635198B8929007A0979 /* voice@2x.png */; };
+		BD15D648198B8929007A0979 /* voice_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD15D636198B8929007A0979 /* voice_h@2x.png */; };
+		BD15D649198B8929007A0979 /* LightPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = BD15D639198B8929007A0979 /* LightPoint.m */; };
+		BD15D64A198B8929007A0979 /* VoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD15D63B198B8929007A0979 /* VoiceView.m */; };
+		BD15D64B198B8929007A0979 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD15D63D198B8929007A0979 /* ViewController.m */; };
+		BD15D64C198B8929007A0979 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD15D63E198B8929007A0979 /* ViewController.xib */; };
+		BD5210AE1A01D353003723D9 /* MicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5210AD1A01D353003723D9 /* MicButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD15D619198B88EE007A0979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD15D5F1198B88ED007A0979 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD15D5F8198B88ED007A0979;
+			remoteInfo = VoiceView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD15D5F9198B88ED007A0979 /* VoiceView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD15D5FC198B88ED007A0979 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD15D5FE198B88ED007A0979 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD15D600198B88ED007A0979 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD15D604198B88ED007A0979 /* VoiceView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoiceView-Info.plist"; sourceTree = "<group>"; };
+		BD15D606198B88ED007A0979 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD15D608198B88ED007A0979 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD15D60A198B88ED007A0979 /* VoiceView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoiceView-Prefix.pch"; sourceTree = "<group>"; };
+		BD15D60B198B88ED007A0979 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD15D60C198B88ED007A0979 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD15D60E198B88ED007A0979 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD15D614198B88EE007A0979 /* VoiceViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD15D615198B88EE007A0979 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BD15D61D198B88EE007A0979 /* VoiceViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoiceViewTests-Info.plist"; sourceTree = "<group>"; };
+		BD15D61F198B88EE007A0979 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD15D621198B88EE007A0979 /* VoiceViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceViewTests.m; sourceTree = "<group>"; };
+		BD15D62B198B8929007A0979 /* InputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputView.h; sourceTree = "<group>"; };
+		BD15D62C198B8929007A0979 /* InputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputView.m; sourceTree = "<group>"; };
+		BD15D62E198B8929007A0979 /* circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle@2x.png"; sourceTree = "<group>"; };
+		BD15D62F198B8929007A0979 /* keyBoard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyBoard@2x.png"; sourceTree = "<group>"; };
+		BD15D630198B8929007A0979 /* keyBoard_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyBoard_h@2x.png"; sourceTree = "<group>"; };
+		BD15D631198B8929007A0979 /* mic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mic@2x.png"; sourceTree = "<group>"; };
+		BD15D632198B8929007A0979 /* send@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send@2x.png"; sourceTree = "<group>"; };
+		BD15D633198B8929007A0979 /* send_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send_h@2x.png"; sourceTree = "<group>"; };
+		BD15D634198B8929007A0979 /* textBac@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textBac@2x.png"; sourceTree = "<group>"; };
+		BD15D635198B8929007A0979 /* voice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice@2x.png"; sourceTree = "<group>"; };
+		BD15D636198B8929007A0979 /* voice_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_h@2x.png"; sourceTree = "<group>"; };
+		BD15D638198B8929007A0979 /* LightPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightPoint.h; sourceTree = "<group>"; };
+		BD15D639198B8929007A0979 /* LightPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightPoint.m; sourceTree = "<group>"; };
+		BD15D63A198B8929007A0979 /* VoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceView.h; sourceTree = "<group>"; };
+		BD15D63B198B8929007A0979 /* VoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceView.m; sourceTree = "<group>"; };
+		BD15D63C198B8929007A0979 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD15D63D198B8929007A0979 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD15D63E198B8929007A0979 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		BD5210AC1A01D353003723D9 /* MicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MicButton.h; path = MicButton/MicButton.h; sourceTree = "<group>"; };
+		BD5210AD1A01D353003723D9 /* MicButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MicButton.m; path = MicButton/MicButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD15D5F6198B88ED007A0979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD15D5FF198B88ED007A0979 /* CoreGraphics.framework in Frameworks */,
+				BD15D601198B88ED007A0979 /* UIKit.framework in Frameworks */,
+				BD15D5FD198B88ED007A0979 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD15D611198B88EE007A0979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD15D616198B88EE007A0979 /* XCTest.framework in Frameworks */,
+				BD15D618198B88EE007A0979 /* UIKit.framework in Frameworks */,
+				BD15D617198B88EE007A0979 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD15D5F0198B88ED007A0979 = {
+			isa = PBXGroup;
+			children = (
+				BD15D602198B88ED007A0979 /* VoiceView */,
+				BD15D61B198B88EE007A0979 /* VoiceViewTests */,
+				BD15D5FB198B88ED007A0979 /* Frameworks */,
+				BD15D5FA198B88ED007A0979 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD15D5FA198B88ED007A0979 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD15D5F9198B88ED007A0979 /* VoiceView.app */,
+				BD15D614198B88EE007A0979 /* VoiceViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD15D5FB198B88ED007A0979 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD15D5FC198B88ED007A0979 /* Foundation.framework */,
+				BD15D5FE198B88ED007A0979 /* CoreGraphics.framework */,
+				BD15D600198B88ED007A0979 /* UIKit.framework */,
+				BD15D615198B88EE007A0979 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD15D602198B88ED007A0979 /* VoiceView */ = {
+			isa = PBXGroup;
+			children = (
+				BD15D60B198B88ED007A0979 /* AppDelegate.h */,
+				BD15D60C198B88ED007A0979 /* AppDelegate.m */,
+				BD15D63C198B8929007A0979 /* ViewController.h */,
+				BD15D63D198B8929007A0979 /* ViewController.m */,
+				BD15D63E198B8929007A0979 /* ViewController.xib */,
+				BD15D62B198B8929007A0979 /* InputView.h */,
+				BD15D62C198B8929007A0979 /* InputView.m */,
+				BD15D637198B8929007A0979 /* TalkView */,
+				BD15D62D198B8929007A0979 /* Resource */,
+				BD15D60E198B88ED007A0979 /* Images.xcassets */,
+				BD15D603198B88ED007A0979 /* Supporting Files */,
+			);
+			path = VoiceView;
+			sourceTree = "<group>";
+		};
+		BD15D603198B88ED007A0979 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD15D604198B88ED007A0979 /* VoiceView-Info.plist */,
+				BD15D605198B88ED007A0979 /* InfoPlist.strings */,
+				BD15D608198B88ED007A0979 /* main.m */,
+				BD15D60A198B88ED007A0979 /* VoiceView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD15D61B198B88EE007A0979 /* VoiceViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD15D621198B88EE007A0979 /* VoiceViewTests.m */,
+				BD15D61C198B88EE007A0979 /* Supporting Files */,
+			);
+			path = VoiceViewTests;
+			sourceTree = "<group>";
+		};
+		BD15D61C198B88EE007A0979 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD15D61D198B88EE007A0979 /* VoiceViewTests-Info.plist */,
+				BD15D61E198B88EE007A0979 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD15D62D198B8929007A0979 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BD15D62E198B8929007A0979 /* circle@2x.png */,
+				BD15D62F198B8929007A0979 /* keyBoard@2x.png */,
+				BD15D630198B8929007A0979 /* keyBoard_h@2x.png */,
+				BD15D631198B8929007A0979 /* mic@2x.png */,
+				BD15D632198B8929007A0979 /* send@2x.png */,
+				BD15D633198B8929007A0979 /* send_h@2x.png */,
+				BD15D634198B8929007A0979 /* textBac@2x.png */,
+				BD15D635198B8929007A0979 /* voice@2x.png */,
+				BD15D636198B8929007A0979 /* voice_h@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BD15D637198B8929007A0979 /* TalkView */ = {
+			isa = PBXGroup;
+			children = (
+				BD5210AB1A01D324003723D9 /* MicButton */,
+				BD15D638198B8929007A0979 /* LightPoint.h */,
+				BD15D639198B8929007A0979 /* LightPoint.m */,
+				BD15D63A198B8929007A0979 /* VoiceView.h */,
+				BD15D63B198B8929007A0979 /* VoiceView.m */,
+			);
+			path = TalkView;
+			sourceTree = "<group>";
+		};
+		BD5210AB1A01D324003723D9 /* MicButton */ = {
+			isa = PBXGroup;
+			children = (
+				BD5210AC1A01D353003723D9 /* MicButton.h */,
+				BD5210AD1A01D353003723D9 /* MicButton.m */,
+			);
+			name = MicButton;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD15D5F8198B88ED007A0979 /* VoiceView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD15D625198B88EE007A0979 /* Build configuration list for PBXNativeTarget "VoiceView" */;
+			buildPhases = (
+				BD15D5F5198B88ED007A0979 /* Sources */,
+				BD15D5F6198B88ED007A0979 /* Frameworks */,
+				BD15D5F7198B88ED007A0979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceView;
+			productName = VoiceView;
+			productReference = BD15D5F9198B88ED007A0979 /* VoiceView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD15D613198B88EE007A0979 /* VoiceViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD15D628198B88EE007A0979 /* Build configuration list for PBXNativeTarget "VoiceViewTests" */;
+			buildPhases = (
+				BD15D610198B88EE007A0979 /* Sources */,
+				BD15D611198B88EE007A0979 /* Frameworks */,
+				BD15D612198B88EE007A0979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD15D61A198B88EE007A0979 /* PBXTargetDependency */,
+			);
+			name = VoiceViewTests;
+			productName = VoiceViewTests;
+			productReference = BD15D614198B88EE007A0979 /* VoiceViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD15D5F1198B88ED007A0979 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = yunzhisheng;
+				TargetAttributes = {
+					BD15D613198B88EE007A0979 = {
+						TestTargetID = BD15D5F8198B88ED007A0979;
+					};
+				};
+			};
+			buildConfigurationList = BD15D5F4198B88ED007A0979 /* Build configuration list for PBXProject "VoiceView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD15D5F0198B88ED007A0979;
+			productRefGroup = BD15D5FA198B88ED007A0979 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD15D5F8198B88ED007A0979 /* VoiceView */,
+				BD15D613198B88EE007A0979 /* VoiceViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD15D5F7198B88ED007A0979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD15D644198B8929007A0979 /* send@2x.png in Resources */,
+				BD15D607198B88ED007A0979 /* InfoPlist.strings in Resources */,
+				BD15D648198B8929007A0979 /* voice_h@2x.png in Resources */,
+				BD15D641198B8929007A0979 /* keyBoard@2x.png in Resources */,
+				BD15D645198B8929007A0979 /* send_h@2x.png in Resources */,
+				BD15D640198B8929007A0979 /* circle@2x.png in Resources */,
+				BD15D647198B8929007A0979 /* voice@2x.png in Resources */,
+				BD15D642198B8929007A0979 /* keyBoard_h@2x.png in Resources */,
+				BD15D643198B8929007A0979 /* mic@2x.png in Resources */,
+				BD15D646198B8929007A0979 /* textBac@2x.png in Resources */,
+				BD15D64C198B8929007A0979 /* ViewController.xib in Resources */,
+				BD15D60F198B88ED007A0979 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD15D612198B88EE007A0979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD15D620198B88EE007A0979 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD15D5F5198B88ED007A0979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD15D64B198B8929007A0979 /* ViewController.m in Sources */,
+				BD5210AE1A01D353003723D9 /* MicButton.m in Sources */,
+				BD15D64A198B8929007A0979 /* VoiceView.m in Sources */,
+				BD15D63F198B8929007A0979 /* InputView.m in Sources */,
+				BD15D649198B8929007A0979 /* LightPoint.m in Sources */,
+				BD15D60D198B88ED007A0979 /* AppDelegate.m in Sources */,
+				BD15D609198B88ED007A0979 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD15D610198B88EE007A0979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD15D622198B88EE007A0979 /* VoiceViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD15D61A198B88EE007A0979 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD15D5F8198B88ED007A0979 /* VoiceView */;
+			targetProxy = BD15D619198B88EE007A0979 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD15D605198B88ED007A0979 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD15D606198B88ED007A0979 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD15D61E198B88EE007A0979 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD15D61F198B88EE007A0979 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD15D623198B88EE007A0979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD15D624198B88EE007A0979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD15D626198B88EE007A0979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceView/VoiceView-Prefix.pch";
+				INFOPLIST_FILE = "VoiceView/VoiceView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD15D627198B88EE007A0979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceView/VoiceView-Prefix.pch";
+				INFOPLIST_FILE = "VoiceView/VoiceView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BD15D629198B88EE007A0979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VoiceView.app/VoiceView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceView/VoiceView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VoiceViewTests/VoiceViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BD15D62A198B88EE007A0979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VoiceView.app/VoiceView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceView/VoiceView-Prefix.pch";
+				INFOPLIST_FILE = "VoiceViewTests/VoiceViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD15D5F4198B88ED007A0979 /* Build configuration list for PBXProject "VoiceView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD15D623198B88EE007A0979 /* Debug */,
+				BD15D624198B88EE007A0979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD15D625198B88EE007A0979 /* Build configuration list for PBXNativeTarget "VoiceView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD15D626198B88EE007A0979 /* Debug */,
+				BD15D627198B88EE007A0979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD15D628198B88EE007A0979 /* Build configuration list for PBXNativeTarget "VoiceViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD15D629198B88EE007A0979 /* Debug */,
+				BD15D62A198B88EE007A0979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD15D5F1198B88ED007A0979 /* Project object */;
+}
